@@ -5,11 +5,11 @@
 	<title>Lost Password &lsaquo; Uroš Hekić &#8212; WordPress</title>
 	<meta name='robots' content='noindex, nofollow, noarchive' />
 <link rel='dns-prefetch' href='//s.w.org' />
-<link rel='stylesheet' id='dashicons-css'  href='http://localhost:8000/wp/wp-includes/css/dashicons.css?ver=5.9' media='all' />
-<link rel='stylesheet' id='buttons-css'  href='http://localhost:8000/wp/wp-includes/css/buttons.css?ver=5.9' media='all' />
-<link rel='stylesheet' id='forms-css'  href='http://localhost:8000/wp/wp-admin/css/forms.css?ver=5.9' media='all' />
-<link rel='stylesheet' id='l10n-css'  href='http://localhost:8000/wp/wp-admin/css/l10n.css?ver=5.9' media='all' />
-<link rel='stylesheet' id='login-css'  href='http://localhost:8000/wp/wp-admin/css/login.css?ver=5.9' media='all' />
+<link rel='stylesheet' id='dashicons-css'  href='https://urosh.net/wp/wp-includes/css/dashicons.css?ver=5.9' media='all' />
+<link rel='stylesheet' id='buttons-css'  href='https://urosh.net/wp/wp-includes/css/buttons.css?ver=5.9' media='all' />
+<link rel='stylesheet' id='forms-css'  href='https://urosh.net/wp/wp-admin/css/forms.css?ver=5.9' media='all' />
+<link rel='stylesheet' id='l10n-css'  href='https://urosh.net/wp/wp-admin/css/l10n.css?ver=5.9' media='all' />
+<link rel='stylesheet' id='login-css'  href='https://urosh.net/wp/wp-admin/css/login.css?ver=5.9' media='all' />
 	<meta name='referrer' content='strict-origin-when-cross-origin' />
 		<meta name="viewport" content="width=device-width" />
 		</head>
@@ -21,7 +21,7 @@
 		<h1><a href="https://wordpress.org/">Powered by WordPress</a></h1>
 	<p class="message">Please enter your username or email address. You will receive an email message with instructions on how to reset your password.</p>
 
-		<form name="lostpasswordform" id="lostpasswordform" action="http://localhost:8000/wp/wp-login.php?action=lostpassword" method="post">
+		<form name="lostpasswordform" id="lostpasswordform" action="https://urosh.net/wp/wp-login.php?action=lostpassword" method="post">
 			<p>
 				<label for="user_login">Username or Email Address</label>
 				<input type="text" name="user_login" id="user_login" class="input" value="" size="20" autocapitalize="off" />
@@ -33,10 +33,10 @@
 		</form>
 
 		<p id="nav">
-			<a href="http://localhost:8000/wp/wp-login.php">Log in</a>
+			<a href="https://urosh.net/wp/wp-login.php">Log in</a>
 					</p>
 				<p id="backtoblog">
-			<a href="http://localhost:8000/">&larr; Go to Uroš Hekić</a>		</p>
+			<a href="https://urosh.net/">&larr; Go to Uroš Hekić</a>		</p>
 			</div>
 				<div class="language-switcher">
 				<form id="language-switcher" action="" method="get">
