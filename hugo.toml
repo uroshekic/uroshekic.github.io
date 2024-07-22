@@ -1,3 +1,24 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://urosh.net/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'urosh.net'
+theme = 'PaperMod'
+sectionPagesMenu = 'main'
+
+[Params]
+    mainSections = ["posts"]
+    # intro = true
+    # headline = "My headline"
+    # description = "My description"
+    github = "https://github.com/uroshekic"
+    twitter = "https://twitter.com/urosh314"
+    email = "uros.hekic@gmail.com"
+    opengraph = true
+    shareTwitter = true
+    dateFormat = "January 2, 2006"
+
+[Permalinks]
+    post = "/:filename/"
+
+[taxonomies]
+   tag = "tags"
+   category = "categories"
