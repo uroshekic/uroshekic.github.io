@@ -1,6 +1,7 @@
 ---
-title: About me
+title: About
 subtitle: Software engineer, husband, father
+menus: main
 comments: false
 ---
 
