@@ -2,23 +2,90 @@ baseURL = 'https://urosh.net/'
 languageCode = 'en-us'
 title = 'urosh.net'
 theme = 'PaperMod'
-sectionPagesMenu = 'main'
+# sectionPagesMenu = 'main'
 
-[Params]
-    mainSections = ["posts"]
-    # intro = true
+# Google analytics code
+# googleAnalytics = "G-xxxxxxxxx"
+
+[params]
     # headline = "My headline"
-    # description = "My description"
-    github = "https://github.com/uroshekic"
-    twitter = "https://twitter.com/urosh314"
-    email = "uros.hekic@gmail.com"
-    opengraph = true
-    shareTwitter = true
-    dateFormat = "January 2, 2006"
+    # github = "https://github.com/uroshekic"
+    # twitter = "https://twitter.com/urosh314"
+    # email = "uros.hekic@gmail.com"
+    # opengraph = true
+    # shareTwitter = true
+    # dateFormat = "January 1, 2024"
 
-[Permalinks]
+    [params.profileMode]
+    enabled = true
+    # title = "Uros Hekic"
+    subtitle = "Welcome to my blog!"
+    # imageUrl = "https://avatars.githubusercontent.com/uroshekic"
+    # imageTitle = "Uros Hekic"
+    # imageWidth = 160
+    # imageHeight = 160
+        
+    [[params.profileMode.buttons]]
+        name = "Archive"
+        url = "/archive"
+
+    [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/uroshekic"
+
+    [[params.socialIcons]]
+    name = "gitlab"
+    url = "https://gitlab.com/uroshekic"
+
+    [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/uroshekic"
+
+    [[params.socialIcons]]
+    name = "twitter"
+    url = "https://twitter.com/urosh314"
+
+    [[params.socialIcons]]
+    name = "instagram"
+    url = "https://www.instagram.com/uroshekic/"
+
+    # [[params.socialIcons]]
+    # name = "strava"
+    # url = "https://www.strava.com/athletes/22092380"
+
+[permalinks]
     post = "/:filename/"
 
 [taxonomies]
    tag = "tags"
    category = "categories"
+
+[menus]
+    # [[menus.main]]
+    # name = 'Home'
+    # pageRef = '/'
+    # weight = 10
+    [[menus.main]]
+    name = 'Blog Posts'
+    pageRef = '/posts'
+    weight = 15
+    # [[menus.main]]
+    # name = 'Categories'
+    # pageRef = '/categories'
+    # weight = 30
+    # [[menus.main]]
+    # name = 'Tags'
+    # pageRef = '/tags'
+    # weight = 40
+    # [[menus.main]]
+    # name = 'Projects'
+    # pageRef = '/page/projects'
+    # weight = 45
+    [[menus.main]]
+    name = 'About'
+    pageRef = '/page/about'
+    weight = 50
+    # [[menus.main]]
+    # name = 'Contact'
+    # pageRef = '/page/contact'
+    # weight = 60
